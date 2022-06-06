@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: aquamarine;
+  }
+
+.navbar{
+    display: flex;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+    z-index: 1;
+   
+  }
+  .nav-right li{
+    display: inline;
+    float: left;
+    padding-left: 15px;
+  }
+  .nav-right li a{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+  }
+.nav-right{
+    text-align: right;
+    float: right;
+  }
+  .topnav a:hover {
+    background-color: rgb(32, 25, 25);
+    color: rgb(255, 255, 255);
+  }
+
+  a{
+    text-decoration: none;
+    }
+    a :hover{
+          background-color: black;
+          color: white;
+          zoom:130%;
+      }
+      ul{list-style-type: none;
+    }
+h2{
+    text-align: center;
+    margin-top:70px;
+    color: black;
+}
+    form{
+        position: relative;
+        background-color: rgb(167, 120, 173);
+        
+       
+        padding: 105px;
+        text-align: center;
+        margin:0 auto 100px;
+        max-width: 150px;
+        display: grid;
+    }

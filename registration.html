@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-right">
+            <li><a href="homepage.html"><i>Home</i></a></li>
+            <li><a href="login.html"> <i> Login</i></a></li>
+            <li><a href="registration.html"><i>Register</i></a></li>
+            <li><a href="books.html"><i> Books</i></a></li>
+            <li><a href="about.html"><i> About Us</i></a></li>
+            
+        </div>
+    </nav>
+
+    <div class="header">
+    <h2 style="text-align:center ;">Please Enter all the details. You will receive you library card by this informantion</h2>
+    </div>
+    <div class="back-side">
+        <form onsubmit="return validation()" novalidate>
+            
+            <label>Name </label>
+            <input type="text" name="" id="name" onblur="validate1()" maxlength="30" placeholder="Your name" required><br>
+            <span id="error1"></span><br>
+
+            <label>Email Address </label>
+            <input type="email" name="email" id="emailid" onblur="validate2()" placeholder="E-mail" required><br>
+            <span id="error2"></span><br>
+
+            <label>Phone Number </label>
+            <input type="text" name="" id="mobile"  onblur="validate3()" minlength="10" maxlength="10" required><br>
+            <span id="error3"></span>
+
+            <label>Password </label>
+            <input type="password" name="pass1" onblur="validate4()" id="pass" required><br>
+            <span id="error4"></span>
+
+            <label>Confirm Password </label>
+            <input type="password" name="pass2" onblur="validate5()" id="c_pass" required><br><br>
+            <span id="error5"></span>
+
+            <input type="submit" name="Submit" id="sub">
+        </form>
+    </div>
+    <script src="registration.js"></script>
+</body>
+</html>

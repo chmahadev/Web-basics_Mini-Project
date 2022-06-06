@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="login.css">
+  
+
+</head>
+<body>
+    <div>
+    <nav class="navbar">
+        <div class="nav-right">
+            <li><a href="homepage.html"><i>Home</i></a></li>
+            <li><a href="login.html"> <i> Login</i></a></li>
+            <li><a href="registration.html"><i> Register</i></a></li>
+            <li><a href="books.html"><i>Books</i></a></li>
+            <li><a href="about.html"><i> About Us</i></a></li>
+        </div>
+    </nav>
+</div>
+    <div class="backside">
+        <h2>LOGIN</h2>
+        <form class="login-form" onsubmit="validateLogin()" novalidate>
+            <label for="pwd">Username </label><input type="text" onblur="validate1()" id="uname"><br>
+            <span id="error1"></span><br>
+            <label>Password </label><input type="password" onblur="validate2()" name="pwd" id="pwd" minlength="8"><br><br>
+            <span id="error2"></span><br>
+            <label><a href="#"> Forgot Password</a></label> <br> 
+            
+            <button id="bt1"><a href="login.html" style="text-decoration:none;">Login</a></button><br><br>
+            <p>Not Registered</p>
+            <label><a href="registration.html"> Register Here</a></label>
+        </form>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="login.js"></script>
+
+    
+</body>
+</html>

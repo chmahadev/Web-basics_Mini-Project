@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="books.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("img").mouseover(function(){
+               
+                $(this).css({backgroundColor:'black', color:'red', border:'5px double brown'});
+            });
+            $("img").mouseleave(function(){
+              
+               $(this).css({'color':'purple','background-color':'green'});
+            });
+    });
+    </script>
+<body>
+    <nav class="navbar">
+        <div class="nav-right">
+            <li><a href="homepage.html"><i>Home</i></a></li>
+            <li><a href="login.html"> <i> Login</i></a></li>
+            <li><a href="registration.html"><i> Register</i></a></li>
+            <li><a href="books.html"><i>Books</i></a></li>
+            <li><a href="about.html"><i> About Us</i></a></li>
+        </div>
+    </nav>
+
+    <div class="body">
+        <div class="vertical-nav">
+        <ul>
+            <h2>Categories</h2>
+            <li><a href="#Novels"> Novels</a></li>
+            <li><a href="#Comics"> Comics</a></li>
+            <li><a href="#Env">Environment</a></li>
+            <li><a href="#Fiction">Fiction & Literature</a></li>
+            <li><a href="#Lifestyle">Lifestyle & Fitness</a></li>
+            <li><a href="#Science&Technology">Science & Technology</a></li>
+        </ul>
+        </div>
+
+
+        <div class="main">
+            <div class="novels" id="Novels">
+            <h2>Novels</h2>
+            <div class="all-books">
+                <div class="imgs">
+                <a href="#"><img src="media/novel1.jpg" alt=""></a>
+                <div class="read">
+                    <button>Read</button>
+                </div>
+            </div>
+            <div class="imgs">
+                <a href="#"><img src="media/no.jpg" alt=""></a>
+                <div class="read">
+                    <button>Read</button>
+                </div>
+            </div>
+            <div class="imgs">
+                <a href="#"><img src="media/novel2.jpg" alt=""></a>
+                <div class="read">
+                    <button>Read</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="comics" id="Comics">
+            <h2>Comics</h2>
+            <div class="all-books">
+                <div class="imgs">
+                <a href="#"><img src="media/comic1.jpg" alt=""></a>
+                <div class="read">
+                    <button>Read</button>
+                </div>
+                </div>
+                <div class="imgs">
+                <a href="#"><img src="media/comic2.jpeg" alt=""></a>
+                <div class="read">
+                    <button>Read</button>
+                </div>
+                </div>
+                <div class="imgs">
+                    <a href="#"><img src="media/comic3.jpg" alt=""></a>
+                <div class="read">
+                    <button>Read</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    
+
+        <div class="Environment" id="Env">
+            <h2>Environment</h2>
+            <div class="all-books">
+                <div class="imgs">
+                <a href="#"><img src="media/env1.jpg" alt=""></a>
+                <div class="read">
+                    <button>Read</button>
+                </div>
+                </div>
+                <div class="imgs">
+                <a href="#"><img src="media/env2.webp" alt=""></a>
+                <div class="read">
+                    <button>Read</button>
+                </div>
+                </div>
+                <div class="imgs">
+                <a href="#"><img src="media/env3.jpg" alt=""></a>
+                <div class="read">
+                    <button>Read</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Fiction & Lit." id="Fiction">
+        <h2>Fiction and Literature</h2>
+            <div class="all-books">
+            <div class="imgs">
+            <a href="#"><img src="media/fic1.jpg" alt=""></a>
+            <div class="read">
+                <button>Read</button>
+            </div>
+        </div>
+        <div class="imgs">
+            <a href="#"><img src="media/fic2.webp" alt=""></a>
+            <div class="read">
+                <button>Read</button>
+            </div>
+        </div>
+        <div class="imgs">
+            <a href="#"><img src="media/fic3.webp" alt=""></a>
+            <div class="read">
+                <button>Read</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="Lifestyle" id="Lifestyle">
+    <h2>Lifestyle</h2>
+    <div class="all-books">
+        <div class="imgs">
+        <a href="#"><img src="media/fit1.jpg" alt=""></a>
+        <div class="read">
+            <button>Read</button>
+        </div>
+    </div>
+    <div class="imgs">
+        <a href="#"><img src="media/fit2.jpg" alt=""></a>
+        <div class="read">
+            <button>Read</button>
+        </div>
+    </div>
+    <div class="imgs">
+        <a href="#"><img src="media/fit3.jpg" alt=""></a>
+        <div class="read">
+            <button>Read</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+<div class="Science & Technology" id="Science&Technology">
+<h2>Science and Technology</h2>
+<div class="all-books">
+    <div class="imgs">
+    <a href="#"><img src="media/sci1.jpg" alt=""></a>
+    <div class="read">
+        <button>Read</button>
+    </div>
+</div>
+<div class="imgs">
+    <a href="#"><img src="media/sci2.jpg" alt=""></a>
+    <div class="read">
+        <button>Read</button>
+    </div>
+</div>
+<div class="imgs">
+    <a href="#"><img src="media/sci3.jpg" alt=""></a>
+    <div class="read">
+        <button>Read</button>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
